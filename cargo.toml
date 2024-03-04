@@ -1,5 +1,5 @@
 [workspace]
-members = [
+members = [ "fibonacci", "for_loop_example",
     "hello_world"
 
 , "if_condition"

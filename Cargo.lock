@@ -3,6 +3,14 @@
 version = 3
 
 [[package]]
+name = "fibonacci"
+version = "0.1.0"
+
+[[package]]
+name = "for_loop_example"
+version = "0.1.0"
+
+[[package]]
 name = "hello_world"
 version = "0.1.0"
 

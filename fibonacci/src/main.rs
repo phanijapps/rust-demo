@@ -1,7 +1,7 @@
 fn main() {
     //let args: Vec<String> = env::args().collect();
 
-    let n = 100;
+    let n = 40;
     let fib = fibonacci_recursive(n);
     println!("Fibonacci of {} is {}",n,fib);
 }

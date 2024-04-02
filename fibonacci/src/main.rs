@@ -1,10 +1,5 @@
 use clap::{App, Arg};
 
-<<<<<<< HEAD
-    let n = 48;
-    let fib = fibonacci_iterative(n);
-    println!("Fibonacci of {} is {}",n,fib);
-=======
 fn main() {
      let matches = App::new("fibonacci")
          .version("1.0")
@@ -30,15 +25,15 @@ fn main() {
                  .required(false),
          )
          .get_matches();
- 
+
      let number: i32 = matches
          .value_of("number")
          .unwrap() // It's safe to use unwrap because we made it required
          .parse()
          .expect("Number needs to be an integer");
- 
+
      let action = matches.value_of("algo").unwrap(); // Also safe to unwrap
- 
+
      println!("Number: {}", number);
      println!("Algo: {}", action);
 
@@ -48,9 +43,8 @@ fn main() {
     }else if action == "R" {
         fib = fibonacci_recursive(number);
     }
-    
+
     println!("Fibonacci of {} is {}", number, fib);
->>>>>>> e513b12bc31cd968f5748b47ac5253026988804b
 }
 
 fn fibonacci_iterative(n: i32) -> i32 {
@@ -65,7 +59,7 @@ fn fibonacci_iterative(n: i32) -> i32 {
 }
 
 //Recursive Fibonacci Number Series
-// 
+//
 fn fibonacci_recursive(n: i32) -> i32 {
     match n {
         0 => 0,

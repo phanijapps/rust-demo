@@ -8,10 +8,16 @@ fn main() {
     // Convert arrays into slices and concatenate
     let merged_array: Vec<_> = [array1.as_slice(), array2.as_slice()].concat();
 
-    println!("Merged array: {:?}", merged_array);
 
-    let set:HashSet<_> = merged_array.into_iter().collect();
-    println!("Set: {:?}", set);
+
+    println!("Merged array: {:?}", merged_array);
+    {
+        let set:HashSet<_> = merged_array.into_iter().collect();
+        let mut sorted_vec = set.clone().into_iter().collect::<Vec<i32>>();
+        println!("Vector: {:?}", sorted_vec);
+        println!("Sorted Vector: {:?}", sorted_vec.sort());
+
+    }
 
 
 

@@ -4,4 +4,4 @@ members = [ "fibonacci", "for_loop_example",
 
 , "if_condition"
 
-]
+, "mergeandsort"]

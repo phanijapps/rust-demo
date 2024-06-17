@@ -1,7 +1,7 @@
 [workspace]
-members = [ "fibonacci", "for_loop_example",
+members = [ "fibonacci", "file", "for_loop_example",
     "hello_world"
 
 , "if_condition"
 
-, "mergeandsort"]
+, "mergeandsort", "variables"]

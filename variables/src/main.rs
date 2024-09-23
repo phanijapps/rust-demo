@@ -1,3 +1,4 @@
+/// .
 fn main() {
     let eight_bit_pos_int : i8 = -2; // negative or positive
     let eight_bit_us_int : u8 = 2; //non negative - if negative there will be compilation error

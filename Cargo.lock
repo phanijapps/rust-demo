@@ -50,11 +50,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "conversion"
+version = "0.1.0"
+
+[[package]]
 name = "fibonacci"
 version = "0.1.0"
 dependencies = [
  "clap",
 ]
+
+[[package]]
+name = "file"
+version = "0.1.0"
 
 [[package]]
 name = "for_loop_example"
@@ -129,6 +137,10 @@ name = "textwrap"
 version = "0.16.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "23d434d3f8967a09480fb04132ebe0a3e088c173e6d0ee7897abbdf4eab0f8b9"
+
+[[package]]
+name = "variables"
+version = "0.1.0"
 
 [[package]]
 name = "winapi"

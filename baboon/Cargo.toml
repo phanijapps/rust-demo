@@ -5,6 +5,6 @@ edition = "2021"
 documentation = "Baboons Crossing a Canyon"
 
 [dependencies]
-tokio = "1.40.0"
+tokio = { version = "1.40.0", features = ["full"] }
 async-lock = "3.4.0"
 mutex = "0.1.0"
